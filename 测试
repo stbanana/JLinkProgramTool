@@ -1,0 +1,3 @@
+Pyinstaller --onefile -w -i favicon.ico  JLinkProgramTool.py  --add-binary=".\\JLink_x64.dll;."
+
+Pyinstaller -w -i favicon.ico  JLinkProgramTool.py  --add-binary=".\\JLink_x64.dll;."
